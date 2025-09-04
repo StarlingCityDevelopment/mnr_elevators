@@ -1,0 +1,9 @@
+{
+    "notify": {
+        "access-denied": "Acceso Denegado",
+        "reached-floor": "Has alcanzado la planta seleccionada"
+    },
+    "textui": {
+        "elevator": "[E] Ascensor"
+    }
+}

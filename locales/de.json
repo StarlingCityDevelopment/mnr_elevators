@@ -1,0 +1,9 @@
+{
+    "notify": {
+        "access-denied": "Zugang Verweigert",
+        "reached-floor": "Sie haben den ausgewählten Plan erreicht"
+    },
+    "textui": {
+        "elevator": "[E] Aufzug"
+    }
+}
