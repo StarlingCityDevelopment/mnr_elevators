@@ -5,7 +5,7 @@ lua54 'yes'
 name 'mnr_elevators'
 description 'Elevator management script'
 author 'IlMelons'
-version '1.0.5'
+version '1.1.0'
 repository 'https://github.com/Monarch-Development/mnr_elevators'
 
 ox_lib 'locale'
