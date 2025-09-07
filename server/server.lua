@@ -1,6 +1,6 @@
-local elevators = lib.load("config.config")
+local elevators = lib.load('config.config')
 
-lib.callback.register("mnr_elevators:server:HasAccess", function(source, name, floor)
+lib.callback.register('mnr_elevators:server:HasAccess', function(source, name, floor)
     local hasItem, hasJob = true, true
     local floorData = elevators[name].floors[floor]
 
