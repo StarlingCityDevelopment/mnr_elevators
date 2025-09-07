@@ -12,7 +12,7 @@ return {
                 locked = false,
                 item = false,
                 jobs = false,
-            }
+            },
             [2] = {
                 title = 'Floor 47',
                 description = 'Legal Affairs',
