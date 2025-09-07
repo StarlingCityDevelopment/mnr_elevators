@@ -1,9 +1,5 @@
 {
-    "notify": {
-        "access-denied": "Accesso Negato",
-        "reached-floor": "Hai raggiunto il piano selezionato"
-    },
-    "textui": {
-        "elevator": "[E] Ascensore"
-    }
+    "access_denied": "Accesso Negato",
+    "reached_floor": "Hai raggiunto il piano selezionato",
+    "textui_elevator": "[E] Ascensore"
 }

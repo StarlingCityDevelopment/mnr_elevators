@@ -1,9 +1,5 @@
 {
-    "notify": {
-        "access-denied": "Přístup odepřen",
-        "reached-floor": "Přijel jsi na vybrané patro"
-    },
-    "textui": {
-        "elevator": "[E] Výtah"
-    }
+    "access_denied": "Přístup odepřen",
+    "reached_floor": "Přijel jsi na vybrané patro",
+    "textui_elevator": "[E] Výtah"
 }

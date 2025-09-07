@@ -14,7 +14,7 @@ local function createElevator(name, label, floors)
                 onEnter = function()
                     playerZone = zoneIndex
 
-                    lib.showTextUI(locale('textui.elevator'), { position = 'left-center', icon = 'fa-solid fa-building' })
+                    lib.showTextUI(locale('textui_elevator'), { position = 'left-center', icon = 'fa-solid fa-building' })
                 end,
                 onExit = function()
                     playerZone = 0
@@ -38,7 +38,7 @@ local function createElevator(name, label, floors)
             onSelect = function()
                 local hasAccess = lib.callback.await('mnr_elevators:server:HasAccess', false, name, floorIndex)
                 if floor.locked and not hasAccess then
-                    client.Notify(locale('notify.access-denied'), 'error')
+                    client.Notify(locale('access_denied'), 'error')
                     return
                 end
 
@@ -54,7 +54,7 @@ local function createElevator(name, label, floors)
                 Wait(2000)
                 DoScreenFadeIn(1000)
 
-                client.Notify(locale('notify.reached-floor'), 'success')
+                client.Notify(locale('reached_floor'), 'success')
             end,
         }
     end

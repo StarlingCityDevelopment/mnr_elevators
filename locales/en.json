@@ -1,9 +1,5 @@
 {
-    "notify": {
-        "access-denied": "Access Denied",
-        "reached-floor": "You have reached the selected floor"
-    },
-    "textui": {
-        "elevator": "[E] Elevator"
-    }
+    "access_denied": "Access Denied",
+    "reached_floor": "You have reached the selected floor",
+    "textui_elevator": "[E] Elevator"
 }
