@@ -5,7 +5,7 @@ local playerZone = 0
 local function createElevator(name, label, floors)
     local menu = {}
 
-    for floorIndex, floor in pairs(floors) do
+    for floorIndex, floor in ipairs(floors) do
         for zoneIndex, zone in pairs(floor.zones) do
             lib.zones.box({
                 coords = vec3(zone.coords.x, zone.coords.y, zone.coords.z),
